@@ -4,7 +4,7 @@
  *swap_int - swap integers
  *
  *@a: first integer
- *@b; second integer
+ *@b: second integer
  */
 void swap_int(int *a, int *b)
 {
