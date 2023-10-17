@@ -4,7 +4,7 @@
 
 /**
  * main - adds numbers
- * @argc: number of arguments passed to the functions
+ * @argc: number of arguments passed to the function
  * @argv: argument vector of pointers to strings
  *
  * Return: 0 if no errors, else 1
@@ -28,6 +28,6 @@ int main(int argc, char *argv[])
 	{
 		a += atoi(argv[i]);
 	}
-	printf("d\n", a);
+	printf("%d\n", a);
 	return (0);
 }
