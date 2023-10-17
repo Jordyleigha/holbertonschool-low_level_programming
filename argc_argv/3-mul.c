@@ -4,7 +4,7 @@
 /**
  * main - multiplies two numbers
  * @argc: number of arguments passed to the function
- * @argc: argument vector of pointers to strings
+ * @argv: argument vector of pointers to strings
  *
  * Return: 0 if no errors, else 1
  */
