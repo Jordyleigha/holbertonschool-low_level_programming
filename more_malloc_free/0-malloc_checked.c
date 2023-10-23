@@ -6,7 +6,7 @@
  * @b: number of bytes allocated
  *
  * Return: void
- * 
+ *
  */
 void *malloc_checked(unsigned int b)
 {
