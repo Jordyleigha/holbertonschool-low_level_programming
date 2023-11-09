@@ -6,3 +6,11 @@
  */
 
 void free_list(list_t *head)
+{
+	list_t *temp_node;
+
+	while (head != NULL){
+		temp_node = head->next;
+		free(temp_node);
+	}
+}
