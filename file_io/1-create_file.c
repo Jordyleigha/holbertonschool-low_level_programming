@@ -1,5 +1,10 @@
 #include "main.h"
 #include <stdlib.h>
+#include <stdio.h>
+#include <unistd.h>
+#include <fcntl.h>
+#include <sys/stat.h>
+#include <sys/types.h>
 /**
  * create_file - file to be created
  * @filename: filename
