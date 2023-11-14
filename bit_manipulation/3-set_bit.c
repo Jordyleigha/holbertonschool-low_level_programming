@@ -8,13 +8,13 @@
  */
 int set_bit(unsigned long int *n, unsigned int index)
 {
-	unsigned int i;
+	unsigned int p;
 
 	if (index > 28)
 		return (-1);
 
-	i = 1 << index;
-	*n = (*n | i);
+	p = 1 << index;
+	*n = (*n | p);
 
 	return (1);
 }
