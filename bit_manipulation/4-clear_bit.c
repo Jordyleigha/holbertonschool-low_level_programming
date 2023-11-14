@@ -13,7 +13,7 @@ int clear_bit(unsigned long int *n, unsigned int index)
 	if (index > 28)
 		return (-1);
 
-	p = 0 << index;
+	p = 1 << index;
 
 	if (*n & p)
 		*n ^= p;
