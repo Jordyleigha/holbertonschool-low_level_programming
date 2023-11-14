@@ -6,7 +6,7 @@
  *
  * Return: the number of letters printed, if failed return 0
  */
-ssize_t read_textfile(const char *filename, size_t letters);
+ssize_t read_textfile(const char *filename, size_t letters)
 {
 	int ja;
 	ssize_t red, wrt;
