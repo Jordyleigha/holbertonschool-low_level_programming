@@ -27,7 +27,7 @@ ssize_t read_textfile(const char *filename, size_t letters)
 	red = read(ja, school, letters);
 	wrt = write(STDOUT_FILENO, school, red);
 
-	close (ja);
+	close(ja);
 
 	free(school);
 
