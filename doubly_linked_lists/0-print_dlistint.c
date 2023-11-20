@@ -9,10 +9,10 @@ size_t print_dlistint(const dlistint_t *h)
 {
 	size_t elem;
 	elem = 0;
-	while (h != NULL)
+	while (h)
 	{
+		elems++;
 		h = h->next;
-		elem++;
 	}
-	return(elem);
+	return (elem);
 }
