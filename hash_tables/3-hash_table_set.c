@@ -18,12 +18,12 @@ int hash_table_set(hash_table_t *ht, const char *key, const char *value)
 
 	same_value = strdup(value);
 	if (same_value == NULL)
-		return(0);
+		return (0);
 
 	index = key_index((const unsigned char *)key, ht->size);
 	for (n = index; ht->array[n]; n++)
 	{
-		if (strcmp(ht->array[n]->key, key)==0)
+		if (strcmp(ht->array[n]->key, key) == 0)
 		{
 			free(ht->array[n]->value);
 			ht->array[n]->value = same_value;
