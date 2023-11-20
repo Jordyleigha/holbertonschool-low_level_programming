@@ -10,7 +10,7 @@
 int hash_table_set(hash_table_t *ht, const char *key, const char *value)
 {
 	hash_node_t *add;
-	char *same_value
+	char *same_value;
 	unsigned long int index, n;
 
 	if (ht == NULL || key == NULL || *key == '\0' || value == NULL)
